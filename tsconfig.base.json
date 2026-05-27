@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "paths": {
+      "@nx-workspace/booking-application": [
+        "./libs/booking-application/src/index.ts"
+      ],
+      "@nx-workspace/booking-domain": ["./libs/booking-domain/src/index.ts"],
+      "@nx-workspace/booking-infrastructure": [
+        "./libs/booking-infrastructure/src/index.ts"
+      ],
+      "@nx-workspace/booking-interface": [
+        "./libs/booking-interface/src/index.ts"
+      ],
+      "@nx-workspace/customer-domain": ["./libs/customer-domain/src/index.ts"],
+      "@nx-workspace/shared-kernel": ["./libs/shared-kernel/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

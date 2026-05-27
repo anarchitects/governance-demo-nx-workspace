@@ -1,0 +1,19 @@
+{
+  "name": "booking-interface",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/booking-interface/src",
+  "projectType": "library",
+  "tags": ["domain: booking", "layer: interface"],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/booking-interface",
+        "main": "libs/booking-interface/src/index.ts",
+        "tsConfig": "libs/booking-interface/tsconfig.lib.json",
+        "assets": ["libs/booking-interface/*.md"]
+      }
+    }
+  }
+}
