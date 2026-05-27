@@ -3,7 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/shared-kernel/src",
   "projectType": "library",
-  "tags": ["domain: shared", "layer: kernel"],
+  "tags": ["domain:shared", "layer:kernel"],
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",

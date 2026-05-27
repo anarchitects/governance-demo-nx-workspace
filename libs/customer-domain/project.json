@@ -3,7 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/customer-domain/src",
   "projectType": "library",
-  "tags": ["domain: customer", "layer: domain"],
+  "tags": ["domain:customer", "layer:domain"],
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
