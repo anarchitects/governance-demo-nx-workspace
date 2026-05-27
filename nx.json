@@ -46,6 +46,9 @@
       "options": {
         "targetName": "test"
       }
+    },
+    {
+      "plugin": "@anarchitects/nx-governance"
     }
   ]
 }

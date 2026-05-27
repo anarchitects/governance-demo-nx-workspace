@@ -4,6 +4,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "@anarchitects/nx-governance": "^0.10.0",
     "@eslint/js": "^9.8.0",
     "@nx/esbuild": "22.7.3",
     "@nx/eslint": "22.7.3",
@@ -32,5 +33,29 @@
     "typescript": "~5.9.2",
     "typescript-eslint": "^8.40.0"
   },
-  "packageManager": "yarn@4.15.0"
+  "packageManager": "yarn@4.15.0",
+  "nx": {
+    "targets": {
+      "repo-health": {
+        "executor": "@anarchitects/nx-governance:repo-health",
+        "options": {
+          "profile": "governance.profile",
+          "output": "cli"
+        },
+        "metadata": {
+          "description": "Run governance health assessment for the workspace."
+        }
+      },
+      "governance-graph": {
+        "executor": "@anarchitects/nx-governance:governance-graph",
+        "options": {
+          "format": "html",
+          "outputPath": "dist/governance/graph.html"
+        },
+        "metadata": {
+          "description": "Generate a governance-enriched graph artifact and static HTML viewer from the Nx Project Graph."
+        }
+      }
+    }
+  }
 }

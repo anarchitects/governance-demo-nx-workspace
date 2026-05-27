@@ -5,6 +5,43 @@ __metadata:
   version: 10
   cacheKey: 10c0
 
+"@anarchitects/governance-adapter-nx@npm:0.0.2":
+  version: 0.0.2
+  resolution: "@anarchitects/governance-adapter-nx@npm:0.0.2"
+  dependencies:
+    "@anarchitects/governance-core": "npm:0.0.4"
+    "@nx/devkit": "npm:22.7.2"
+    tslib: "npm:^2.3.0"
+  peerDependencies:
+    nx: ">=19 <23"
+  checksum: 10c0/c5619679a9aba2e53e8fd4e3667c94ae0b29549d4125d7f2b9a0be646d01eed31bd3f58aacc56dfd13529c014f71d1b26abf0ddd68fa4d256f18509957df0fb3
+  languageName: node
+  linkType: hard
+
+"@anarchitects/governance-core@npm:0.0.4":
+  version: 0.0.4
+  resolution: "@anarchitects/governance-core@npm:0.0.4"
+  checksum: 10c0/faccffbe94634054c51f8903d2dd295f6ec837e98c9fb7653c16451c4e889928a1ac4119dc2d60af15b0ea4141b37ee709dd24cafb94dd613f3d3e5528365338
+  languageName: node
+  linkType: hard
+
+"@anarchitects/nx-governance@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "@anarchitects/nx-governance@npm:0.10.0"
+  dependencies:
+    "@anarchitects/governance-adapter-nx": "npm:0.0.2"
+    "@anarchitects/governance-core": "npm:0.0.4"
+    minimatch: "npm:9.0.5"
+    tslib: "npm:^2.6.2"
+    typescript: "npm:~5.9.2"
+    yaml: "npm:^2.8.1"
+  peerDependencies:
+    "@nx/devkit": ">=19 <23"
+    nx: ">=19 <23"
+  checksum: 10c0/d8542ad3bb21593af67262c102528437f6e09e32c8fbbf919a94b9456dc5a174fea6003c9f375ff59c0e6478fdf1f45006abe09869b9555b4ee7959c7b3d6586
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.27.1, @babel/code-frame@npm:^7.29.7":
   version: 7.29.7
   resolution: "@babel/code-frame@npm:7.29.7"
@@ -2353,6 +2390,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nx-workspace/source@workspace:."
   dependencies:
+    "@anarchitects/nx-governance": "npm:^0.10.0"
     "@eslint/js": "npm:^9.8.0"
     "@nx/esbuild": "npm:22.7.3"
     "@nx/eslint": "npm:22.7.3"
@@ -2382,6 +2420,23 @@ __metadata:
     typescript-eslint: "npm:^8.40.0"
   languageName: unknown
   linkType: soft
+
+"@nx/devkit@npm:22.7.2":
+  version: 22.7.2
+  resolution: "@nx/devkit@npm:22.7.2"
+  dependencies:
+    "@zkochan/js-yaml": "npm:0.0.7"
+    ejs: "npm:5.0.1"
+    enquirer: "npm:~2.3.6"
+    minimatch: "npm:10.2.5"
+    semver: "npm:^7.6.3"
+    tslib: "npm:^2.3.0"
+    yargs-parser: "npm:21.1.1"
+  peerDependencies:
+    nx: ">= 21 <= 23 || ^22.0.0-0"
+  checksum: 10c0/ca181b59c50dee144352503ab58652aa76833f1b963d728afab747a10e6bc9a94684680dc940cdd15f4b0ceeb02c17d5c8fa8999f968f8db79d95230ac4e6aca
+  languageName: node
+  linkType: hard
 
 "@nx/devkit@npm:22.7.3":
   version: 22.7.3
@@ -3978,7 +4033,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"brace-expansion@npm:^2.0.2":
+"brace-expansion@npm:^2.0.1, brace-expansion@npm:^2.0.2":
   version: 2.1.1
   resolution: "brace-expansion@npm:2.1.1"
   dependencies:
@@ -6629,6 +6684,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minimatch@npm:9.0.5":
+  version: 9.0.5
+  resolution: "minimatch@npm:9.0.5"
+  dependencies:
+    brace-expansion: "npm:^2.0.1"
+  checksum: 10c0/de96cf5e35bdf0eab3e2c853522f98ffbe9a36c37797778d2665231ec1f20a9447a7e567cb640901f89e4daaa95ae5d70c65a9e8aa2bb0019b6facbc3c0575ed
+  languageName: node
+  linkType: hard
+
 "minimatch@npm:^3.0.4, minimatch@npm:^3.1.1, minimatch@npm:^3.1.5":
   version: 3.1.5
   resolution: "minimatch@npm:3.1.5"
@@ -7861,7 +7925,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.8.1, tslib@npm:^2.3.0, tslib@npm:^2.4.0, tslib@npm:^2.8.0, tslib@npm:^2.8.1":
+"tslib@npm:2.8.1, tslib@npm:^2.3.0, tslib@npm:^2.4.0, tslib@npm:^2.6.2, tslib@npm:^2.8.0, tslib@npm:^2.8.1":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: 10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62
@@ -8245,6 +8309,15 @@ __metadata:
   version: 1.10.3
   resolution: "yaml@npm:1.10.3"
   checksum: 10c0/c309ff85a0a569a981d71ab9cf0fef68672a16b9cdf40639d1c3b30034f6cd16ee428602bd6d64ecf006f8c8bee499023cac236538f79898aa99fb5db529a2ed
+  languageName: node
+  linkType: hard
+
+"yaml@npm:^2.8.1":
+  version: 2.9.0
+  resolution: "yaml@npm:2.9.0"
+  bin:
+    yaml: bin.mjs
+  checksum: 10c0/f340718df45e97a9551b9bf9dac61c80050bc464513b710debfb5067c380c8472e3b67809cffacb4ab5ffb5e66ef9310816c88b05f371cec60abfedd8c88e0a2
   languageName: node
   linkType: hard
 
