@@ -5,38 +5,38 @@ __metadata:
   version: 10
   cacheKey: 10c0
 
-"@anarchitects/governance-adapter-nx@npm:0.1.0":
-  version: 0.1.0
-  resolution: "@anarchitects/governance-adapter-nx@npm:0.1.0"
+"@anarchitects/governance-adapter-nx@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@anarchitects/governance-adapter-nx@npm:0.2.1"
   dependencies:
-    "@anarchitects/governance-core": "npm:0.1.0"
+    "@anarchitects/governance-core": "npm:0.4.1"
     "@nx/devkit": "npm:22.7.2"
     tslib: "npm:^2.3.0"
   peerDependencies:
     nx: ">=19 <23"
-  checksum: 10c0/78626a481ee520c2fa57c5206bb5d0fb3f9dabb838e5c1d6b752ef56be88c4230841c318469e7c90b7a23106ccd7f10350dcf678cc5d516d5c7732e0f75c578a
+  checksum: 10c0/cc6eb322683e6426a2dec02d05baeb17a7320ce29822df62f7e317f23f3e426f8a76a45dffd0f6d806695949683e82b394b5d705a105fd51b0ed819d977fa593
   languageName: node
   linkType: hard
 
-"@anarchitects/governance-core@npm:0.1.1":
-  version: 0.1.1
-  resolution: "@anarchitects/governance-core@npm:0.1.1"
-  checksum: 10c0/b575a51e670d7df8249df33dbc886098bc54964206b70d6f967b300862b1ac217ccae982eb30af9705a12fbc12dd3c6c5a7d93d31101bd30dd57281a1611af70
+"@anarchitects/governance-core@npm:0.4.1":
+  version: 0.4.1
+  resolution: "@anarchitects/governance-core@npm:0.4.1"
+  checksum: 10c0/1b862f2070e7b316abb40ecc2c970c449ff3bfc5fcffce5d0c9b5dc5ad5f7987a20ec736ce1ce63677c126a9670c311c7d27430b3979070d9416edd010f599f1
   languageName: node
   linkType: hard
 
-"@anarchitects/nx-governance@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "@anarchitects/nx-governance@npm:0.11.0"
+"@anarchitects/nx-governance@npm:^0.12.1":
+  version: 0.12.1
+  resolution: "@anarchitects/nx-governance@npm:0.12.1"
   dependencies:
-    "@anarchitects/governance-adapter-nx": "npm:0.1.0"
-    "@anarchitects/governance-core": "npm:0.0.4"
+    "@anarchitects/governance-adapter-nx": "npm:0.2.1"
+    "@anarchitects/governance-core": "npm:0.4.1"
     minimatch: "npm:9.0.5"
     tslib: "npm:^2.6.2"
   peerDependencies:
     "@nx/devkit": ">=19 <23"
     nx: ">=19 <23"
-  checksum: 10c0/928c7f2414374d6a11bb72a9e2636bea92bbaeaff27abc2988a899143d196a0711e096ae4c8af9fe2df937158f85d85583c67861ae94f4f42f8c2cbdf39849fd
+  checksum: 10c0/4a054a0b0f94892a92bb196b7d580b241cbbd5f7534c19bd1efad7a3068dbf97a1e8c061c5739d92695312b5d20f891e907f0d1d3690139081a1deaf472ecb50
   languageName: node
   linkType: hard
 
@@ -2388,7 +2388,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nx-workspace/source@workspace:."
   dependencies:
-    "@anarchitects/nx-governance": "npm:^0.11.0"
+    "@anarchitects/nx-governance": "npm:^0.12.1"
     "@eslint/js": "npm:^9.8.0"
     "@nx/esbuild": "npm:22.7.3"
     "@nx/eslint": "npm:22.7.3"
