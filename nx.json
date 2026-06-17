@@ -48,7 +48,7 @@
       }
     },
     {
-      "plugin": "@anarchitects/nx-governance"
+      "plugin": "@anarchitects/nx-governance/plugin"
     }
   ]
 }

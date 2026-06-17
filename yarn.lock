@@ -5,16 +5,16 @@ __metadata:
   version: 10
   cacheKey: 10c0
 
-"@anarchitects/governance-adapter-nx@npm:0.2.1":
-  version: 0.2.1
-  resolution: "@anarchitects/governance-adapter-nx@npm:0.2.1"
+"@anarchitects/governance-adapter-nx@npm:0.2.2":
+  version: 0.2.2
+  resolution: "@anarchitects/governance-adapter-nx@npm:0.2.2"
   dependencies:
     "@anarchitects/governance-core": "npm:0.4.1"
     "@nx/devkit": "npm:22.7.2"
     tslib: "npm:^2.3.0"
   peerDependencies:
     nx: ">=19 <23"
-  checksum: 10c0/cc6eb322683e6426a2dec02d05baeb17a7320ce29822df62f7e317f23f3e426f8a76a45dffd0f6d806695949683e82b394b5d705a105fd51b0ed819d977fa593
+  checksum: 10c0/4d56209a841a0038ff4366b0cc5876246e5d7ce6c0b9986e3a9e0c156dde5efd265d7b75eb6eafb12c7615f2d35002ae9ffc3041e99a96839d4a34189c11a810
   languageName: node
   linkType: hard
 
@@ -25,18 +25,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@anarchitects/nx-governance@npm:^0.12.1":
-  version: 0.12.1
-  resolution: "@anarchitects/nx-governance@npm:0.12.1"
+"@anarchitects/nx-governance@npm:^0.12.2":
+  version: 0.12.2
+  resolution: "@anarchitects/nx-governance@npm:0.12.2"
   dependencies:
-    "@anarchitects/governance-adapter-nx": "npm:0.2.1"
+    "@anarchitects/governance-adapter-nx": "npm:0.2.2"
     "@anarchitects/governance-core": "npm:0.4.1"
     minimatch: "npm:9.0.5"
     tslib: "npm:^2.6.2"
   peerDependencies:
     "@nx/devkit": ">=19 <23"
     nx: ">=19 <23"
-  checksum: 10c0/4a054a0b0f94892a92bb196b7d580b241cbbd5f7534c19bd1efad7a3068dbf97a1e8c061c5739d92695312b5d20f891e907f0d1d3690139081a1deaf472ecb50
+  checksum: 10c0/462f69765a7d06d05ab47fc6109c7d2a8b9eb4e3ae5568ecb10e0df4d54c6ba0174f557eebf16cc41775bf7b0de0f6ae73131e7ef801c7d8d1eb2acf2f4b161d
   languageName: node
   linkType: hard
 
@@ -2388,7 +2388,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nx-workspace/source@workspace:."
   dependencies:
-    "@anarchitects/nx-governance": "npm:^0.12.1"
+    "@anarchitects/nx-governance": "npm:^0.12.2"
     "@eslint/js": "npm:^9.8.0"
     "@nx/esbuild": "npm:22.7.3"
     "@nx/eslint": "npm:22.7.3"
